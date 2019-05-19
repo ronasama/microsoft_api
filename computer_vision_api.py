@@ -38,7 +38,7 @@ class ComputerVision(object):
         return word_infos
 
 
-subscription_key = "e7d14872058a4883ae37ba5efe41a5d8"   # need to set own key
+subscription_key = "your key"   # need to set own key
 
 # get info into image
 params = {'visualFeatures': 'Categories, Description, Color'} # Faces, Tags ...
